@@ -1,0 +1,30 @@
+.container{
+   margin: 3rem auto;
+   width: 30rem;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;  
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}   
+.container form input {
+    padding: 6px 8px;
+}
+.container form button{
+    padding: 10px 12px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: medium;
+    border: none;
+    border-radius: 2px;
+    width: 10rem;
+    margin: 13px auto;
+    font-weight: 600;
+    cursor: pointer;
+}

@@ -1,0 +1,120 @@
+.single {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30rem;
+  margin:25px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 25px;
+  gap: 1rem;
+  border-radius: 3px;
+}
+
+.single h4 {
+  margin: 0;
+}
+
+.single form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  gap: 1rem;
+}
+
+.single form input {
+  padding: 10px 15px;
+  font-weight: 600;
+}
+
+.headings {
+  display: flex;
+  justify-content: space-between;
+}
+
+.single-heading h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.single-heading span {
+  height: 2px;
+  width: 70px;
+  background-color: cornflowerblue;
+  margin: 8px auto;
+  display: block;
+  border-radius: 20px;
+}
+
+.update-btn {
+  padding: 8px 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: larger;
+
+  cursor: pointer;
+}
+.update-btn:hover {
+  background-color: #0056b3;
+}
+.delete-btn {
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: larger;
+  background-color: #34c759;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+  margin-top: -8px;
+}
+
+form select {
+  width: 8rem;
+  
+}
+.styled-select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #f0f0f0; 
+  border: 1px solid #ccc; 
+  color: #333; 
+  width: 100%; 
+  max-width: 400px;
+  appearance: none; 
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNyIgaGVpZ2h0PSI0IiB2aWV3Qm94PSIwIDAgNyA0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0uNzEyLjIwNTRDMS4xMjcuMDc1OSAxLjU3MyAwIDEuOTkxIDBINi4wMDhjLjQxOCAwIC45MjYuMDc1IDEuMjg2LjIwNTRjLjM2LjEzMTQuNTc4LjM1NDkuNjU0LjU4MDguMDc0LjIyNTkuMDU0LjU1Mi0uMTg4LjkxODFMNC4wOTQgMy41NThhMS41IDAgMCAxLTEuMTEuNTg2IDEuNSA0LjI4IDAgMCAxLS45MDYtLjE1M2wuMDAyLS4wMDJhMS41IDAgMCAxLS44NzItLjQ4NTlsLTIuNzcxLTMuMjRhMSAxIDAgMCAxLS4xMjMtLjkxODJaIiBmaWxsPSIjM0QzRDNEIiBzdHJva2U9IiMzRDNEM0QiIHN0cm9rZS13aWR0aD0iLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg==');
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+  background-size: 12px;
+  cursor: pointer;
+}
+
+.styled-select:focus {
+  outline: none;
+  border-color: #5cb85c; /* Change border color when focused */
+}
+
+input:focus{
+  border: none;
+}
+
+.styled-select option {
+  background-color: #fff;
+  color: #333; /* Text color for options */
+}
+
+.styled-select option[value="pending"] {
+  background-color: #f0ad4e; /* Orange for Pending */
+}
+
+.styled-select option[value="declined"] {
+  background-color: #d9534f; /* Red for Declined */
+}
+
+.styled-select option[value="interview"] {
+  background-color: #5cb85c; /* Green for Interview */
+}
